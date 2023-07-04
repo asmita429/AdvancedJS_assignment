@@ -1,0 +1,19 @@
+const nowDate = new Date()
+undefined
+nowDate.__proto__
+Date.prototype { … }
+
+nowDate.constructor
+function Date()
+
+nowDate
+Date Tue Jul 04 2023 23:54:56 GMT+0545 (Nepal Time)
+
+nowDate.toString()
+"Tue Jul 04 2023 23:54:56 GMT+0545 (Nepal Time)"
+nowDate.toDateString()
+"Tue Jul 04 2023"
+nowDate.toTimeString()
+"23:54:56 GMT+0545 (Nepal Time)"
+nowDate.toISOString()
+"2023-07-04T18:09:56.636Z" 

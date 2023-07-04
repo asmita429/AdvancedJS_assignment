@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div">
+        <h1>I will change my color according to your choice </h1>
+        <label for="input">Enter color to change text </label>
+        <input type="text" id="input" />
+        <button id="but">Click</button>
+    </div>
+    <script>
+        
+        const divElement = document.getElementById('div');
+
+        const buton = document.getElementById('but');
+        buton.addEventListener('click',function(){
+            const value = document.getElementById('input').value;
+            divElement.style.color = value;
+        })
+        
+
+
+    </script>
+</body>
+</html>
